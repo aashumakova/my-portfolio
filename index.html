@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alina Shumakova | Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#about">Alina Shumakova | Web Developer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#more-about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#code-shop">Code Shop</a></li>
+              <li><a class="dropdown-item" href="#read-it-baby">Read it, baby!</a></li>
+              <li><a class="dropdown-item" href="#hr-portal">HR Portal</a></li>
+              <li><a class="dropdown-item" href="#bones">Learn your bones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <section class="hero" id="about">
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">Hello there!</h2>
+          <p class="bio-text">
+          I am Alina Shumakova, an aspiring rooky web developer, adept at navigating complex challenges and delivering exceptional results. Welcome to my portfolio page :) 
+          </p>
+        </div>
+        <img
+          src="images/alina.jpg"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+    </section>
+    <section class="more-about">
+      <h2>About Me</h2>
+      <p>
+      After 12 years in healthcare and leadership I decided to dive in an unfamiliar environment and start helping people by coding well working web applications. I have finished a software engineering botocamp in July 2023. The experience has tought me that I do not need to have an answer for everything, but I can always find a solution through commitment, research, and collaboration. I am comfortable being uncomfortable and enjoy a good challenge.
+      </p>
+      <p>
+      In my free time I enjoy spending time outdoors, going on hikes, taking long walks on the beach, sketchig, or curling in a blanket on a swing and reading books. 
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skills-title">Skills</h2>
+      <div class="skills-container skill-card">
+        <div class="first-set animate__animated animate__pulse">
+          <ul>JavaScript, Python</ul>
+          <ul>Express, Django, React</ul>
+          <ul>HTML, CSS, Bootstrap</ul>
+          <ul>MongoDB, Mongoose</ul>
+          <ul>SQL, SQLite, MySQL, PostgreSQL</ul>
+          <ul>Muffin and cupcake baker</ul>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card" id="code-shop">
+          <h3 class="project-title">Code Shop</h3>
+          <img
+            src="images/code-shop.png"
+            alt="code-shop"
+            loading="lazy"
+            class="project-pic"
+          />
+          <p class="project-details">
+            Code Shop is a Full Stack MERN (MongoDB, Express, React.js, Node.js) Shopify-like application. It is an internet commerce app that allows users to view various items, add/remove items to the cart, and make purchases related to coding. The app was developed in 3 days and has full CRUD (create, read, update, delete operations), while hitting all RESTful API calls. Acted as a SCRUM master and a full stack developer during production of this app. Used Agile methodology and performed project imporvements through the use of retrospectives. Utilised Git as a version control method.
+          </p>
+          <a href="https://codeshop.onrender.com/" target="_blank" class="project-link">Click me!</a>
+        </div>
+        <div class="project-card" id="read-it-baby">
+          <h3 class="project-title">Read it, baby!</h3>
+          <img
+            src="images/read-it-baby.png"
+            alt="read-it-baby"
+            loading="lazy"
+            class="project-pic"
+          />
+          <p class="project-details">
+            Read it, baby! is a Django application that allows parents to search for age-appropriate books for their babies and is intended to promote early childhood development, as well as literacy rates. Led development of this application while acting as a SCRUM master and a full stack developer. Served the back-end of the application using Django and Python methods and functions utilizing PostgreSQL database management. Used Agile methodology to build a full stack application in 3 days. Styled and created the visual aspects using Materialize, HTML5, and CSS3. Wireframed and planned UI design of application using Figma. Made frequent commits using Git control throughout the production of the application.
+          </p>
+          <a href="https://bookreadingapp.onrender.com/" target="_blank" class="project-link">Click me!</a>
+        </div>
+        <div class="project-card" id="hr-portal">
+          <h3 class="project-title">HR Portal</h3>
+          <img
+            src="images/hr-portal.png"
+            alt="hr-portal"
+            loading="lazy"
+            class="project-pic"
+          />
+          <p class="project-details">
+            HR Portal is an Express, MongoDB, and Node.js full stack application that allows managers to keep their employees’ credentialing and annual evaluations up to date. Implemented Javascript methods and functions in order to utilize an Express, MongoDB, and Node.js backend creating a representational state transfer(REST)ful application while handling all create, read, update, delete (CRUD) operations. Used Mongoose to define schemas for MongoDB collections. Utilized Git control during the production of the application with frequent commits until deployment.Styled and created the visual aspects using Bootstrap, HTML5, and CSS3.
+            
+          </p>
+          <a href="https://hrportal.fly.dev/" target="_blank" class="project-link">Click me!</a>
+        </div>
+        <div class="project-card" id="bones">
+            <h3 class="project-title">Learn your bones</h3>
+            <img
+              src="images/learn-your-bones.png"
+              alt="learn-your-bones"
+              loading="lazy"
+              class="project-pic"
+            />
+            <p class="project-details">
+                Learn your bones is a guessing game for premed/nursing students who are interested in learning the spelling of 206 bones of the human body. The game was developed with Vanilla Javascript, CSS3, and HTML5 to organize and display the visual aspects of the application. A randomized word is generated at every stage. Object oriented functions were created to iterate over letters in the word as users start guessing the mystery word. Event listeners were added to document object model manipulation for stage transitions. Wireframed and planned UI design of application. Utilized Git control during the production of the application with frequent commits until deployment.
+            </p>
+            <a href="https://aashumakova.github.io/Learn-Your-Bones/" target="_blank" class="project-link">Click me!</a>
+          </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Shoot Me An Email</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <h5>aashumakova@gmail.com</h5>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/alina-shumakova/" target="_blank"
+        ><img
+          src="icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/aashumakova" target="_blank"
+        ><img src="icons/icons8-github.gif" alt="Github" 
+        class="socicon"
+      /></a>
+    </div>
+    <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy"> Built with &#x2661; by Alina Shumakova</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
+</body>
+</html>
